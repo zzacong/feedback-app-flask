@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS `lexus`;
+
+CREATE DATABASE `lexus`;
