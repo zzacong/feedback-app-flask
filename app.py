@@ -12,7 +12,7 @@ if app.env == 'development':
   import dotenv
   dotenv.load_dotenv(override=True)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URI')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('POSTGRES_URL')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # ! Init db
