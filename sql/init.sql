@@ -1,9 +1,3 @@
-DROP DATABASE IF EXISTS "lexus";
-
-CREATE DATABASE "lexus";
-
-\connect "lexus";
-
 DROP TABLE IF EXISTS "feedback";
 
 CREATE TABLE "feedback" (
