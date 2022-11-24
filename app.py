@@ -8,7 +8,6 @@ app = Flask(__name__)
 
 # ! App Configs
 if app.env == 'development':
-  print('env', app.env)
   import dotenv
   dotenv.load_dotenv(override=True)
 
